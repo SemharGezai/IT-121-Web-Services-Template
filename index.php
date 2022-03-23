@@ -1,6 +1,6 @@
 <html>
 <head>
-  <title>Bond Web Service Demo</title>
+  <title>Black Films</title>
 <style>
 body {font-family:georgia;}
     .film{
@@ -73,9 +73,10 @@ cat = $(this).attr("href");  //get category from URL
 </script>
 </head>
 <body>
-<h1>My Top Ten Movies Of All Times</h1>
-<a href="year" class="category">My Top Ten Movies Of All Times</a><br />
-<a href="box" class="category">My Top Ten Movies Of All Times International Box Office Totals</a>
+<h1>Black Films Web Service</h1>
+<h5><b><i>This website demonstrates storing data by using JSON, this web service will display my top 5 black films</i></b></h5>  
+<a href="year" class="category">My Top Five Black Movies</a><br />
+<a href="box" class="category">My Top Five Black Movies International Box Office Totals</a>
 <h3 id="filmtitle"></h3>
 <div id="films">
 <p>Films will go here</p>
